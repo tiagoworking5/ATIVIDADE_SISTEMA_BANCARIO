@@ -18,14 +18,20 @@ body {
     
 }
 
-.logo {
-    margin: 50px;
-}
-.usuario {
+#usuario {
     width: 200px;
     height: 46px;
     font-size: 18px;
     font-weight: bold;
+    border-radius: 10px;
+}
+
+.senha {
+    width: 200px;
+    height: 46px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
 
 }
 
