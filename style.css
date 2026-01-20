@@ -18,6 +18,9 @@ body {
     
 }
 
+.logo {
+    margin: 50px;
+}
 .usuario {
     width: 200px;
     height: 46px;
