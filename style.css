@@ -9,19 +9,14 @@
 
 body {
     background-color: #ff7a00;
-    height: 100vh;
+    height: 100vh; /* O body deve ter a altura total da tela */
+    margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    flex-direction: column; /* Coloca os elementos um abaixo do outro */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+  }
 
-
-.container {
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-
-}
 
 /* Logo */
 .logo img {
